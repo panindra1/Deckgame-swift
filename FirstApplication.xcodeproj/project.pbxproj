@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1468AE1B167E3A004D0BAE /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1468AC1B167E3A004D0BAE /* CleanroomASL.framework */; };
+		7A1468AF1B167E3A004D0BAE /* CleanroomASL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1468AC1B167E3A004D0BAE /* CleanroomASL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A1468B01B167E3A004D0BAE /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1468AD1B167E3A004D0BAE /* CleanroomLogger.framework */; };
+		7A1468B11B167E3A004D0BAE /* CleanroomLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1468AD1B167E3A004D0BAE /* CleanroomLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7A6074E41B114D7B00ED92E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6074E31B114D7B00ED92E1 /* AppDelegate.swift */; };
 		7A6074E61B114D7B00ED92E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6074E51B114D7B00ED92E1 /* ViewController.swift */; };
 		7A6074E91B114D7B00ED92E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6074E71B114D7B00ED92E1 /* Main.storyboard */; };
 		7A6074EB1B114D7B00ED92E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6074EA1B114D7B00ED92E1 /* Images.xcassets */; };
 		7A6074EE1B114D7B00ED92E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A6074EC1B114D7B00ED92E1 /* LaunchScreen.xib */; };
 		7A6074FA1B114D7B00ED92E1 /* FirstApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6074F91B114D7B00ED92E1 /* FirstApplicationTests.swift */; };
+<<<<<<< HEAD
 		7A6B23371B18CE8C004398E8 /* CleanroomASL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6B23351B18CE8C004398E8 /* CleanroomASL.framework */; };
 		7A6B23381B18CE8C004398E8 /* CleanroomASL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6B23351B18CE8C004398E8 /* CleanroomASL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7A6B23391B18CE8C004398E8 /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6B23361B18CE8C004398E8 /* CleanroomLogger.framework */; };
 		7A6B233A1B18CE8C004398E8 /* CleanroomLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6B23361B18CE8C004398E8 /* CleanroomLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+=======
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
 		ED17B8D017A4D4ED0D635866 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B03CCC3E469B1884A2E96F /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,8 +44,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+<<<<<<< HEAD
 				7A6B23381B18CE8C004398E8 /* CleanroomASL.framework in Embed Frameworks */,
 				7A6B233A1B18CE8C004398E8 /* CleanroomLogger.framework in Embed Frameworks */,
+=======
+				7A1468AF1B167E3A004D0BAE /* CleanroomASL.framework in Embed Frameworks */,
+				7A1468B11B167E3A004D0BAE /* CleanroomLogger.framework in Embed Frameworks */,
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +59,11 @@
 
 /* Begin PBXFileReference section */
 		213FE3169109948CA211236C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		7A1468AC1B167E3A004D0BAE /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = ../SwiftLogging/Carthage/Build/iOS/CleanroomASL.framework; sourceTree = "<group>"; };
+		7A1468AD1B167E3A004D0BAE /* CleanroomLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomLogger.framework; path = ../SwiftLogging/Carthage/Build/iOS/CleanroomLogger.framework; sourceTree = "<group>"; };
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
 		7A6074DE1B114D7B00ED92E1 /* FirstApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6074E21B114D7B00ED92E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A6074E31B114D7B00ED92E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,8 +74,11 @@
 		7A6074F31B114D7B00ED92E1 /* FirstApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6074F81B114D7B00ED92E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A6074F91B114D7B00ED92E1 /* FirstApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstApplicationTests.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		7A6B23351B18CE8C004398E8 /* CleanroomASL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomASL.framework; path = Carthage/Build/iOS/CleanroomASL.framework; sourceTree = "<group>"; };
 		7A6B23361B18CE8C004398E8 /* CleanroomLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomLogger.framework; path = Carthage/Build/iOS/CleanroomLogger.framework; sourceTree = "<group>"; };
+=======
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
 		811E2B53A464A171B47D107B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E5B03CCC3E469B1884A2E96F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,8 +88,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				7A6B23391B18CE8C004398E8 /* CleanroomLogger.framework in Frameworks */,
 				7A6B23371B18CE8C004398E8 /* CleanroomASL.framework in Frameworks */,
+=======
+				7A1468AE1B167E3A004D0BAE /* CleanroomASL.framework in Frameworks */,
+				7A1468B01B167E3A004D0BAE /* CleanroomLogger.framework in Frameworks */,
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
 				ED17B8D017A4D4ED0D635866 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,8 +121,13 @@
 		7A6074D51B114D7B00ED92E1 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				7A6B23351B18CE8C004398E8 /* CleanroomASL.framework */,
 				7A6B23361B18CE8C004398E8 /* CleanroomLogger.framework */,
+=======
+				7A1468AC1B167E3A004D0BAE /* CleanroomASL.framework */,
+				7A1468AD1B167E3A004D0BAE /* CleanroomLogger.framework */,
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
 				7A6074E01B114D7B00ED92E1 /* FirstApplication */,
 				7A6074F61B114D7B00ED92E1 /* FirstApplicationTests */,
 				7A6074DF1B114D7B00ED92E1 /* Products */,
@@ -459,7 +489,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/ptumkurseetharamu/Desktop/SwiftLogging/Carthage/Build/iOS,
+<<<<<<< HEAD
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+=======
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
 				);
 				INFOPLIST_FILE = FirstApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -475,7 +508,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/ptumkurseetharamu/Desktop/SwiftLogging/Carthage/Build/iOS,
+<<<<<<< HEAD
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+=======
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
 				);
 				INFOPLIST_FILE = FirstApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

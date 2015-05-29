@@ -22,7 +22,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var enemyScore: UILabel!
     let playerOne = "PlayerOne"
     let playerTwo = "PlayerTwo"
+<<<<<<< HEAD
     let db = Database("/Users/ptumkurseetharamu/Desktop/projects/FirstApplication/sample")
+=======
+    let db = Database("/Users/ptumkurseetharamu/Desktop/FirstApplication/sample")
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
     let name = Expression<String?>("name")
     let numberOfWins = Expression<String?>("numberOfWins")
 
@@ -108,7 +112,16 @@ class ViewController: UIViewController {
         player.update(numberOfWins <- "\(numberOfGamesWonByPlayer + 1)")
 
         //Update UI
+<<<<<<< HEAD
         resetScores()
+=======
+        self.playerScore.text = String(0)
+        self.enemyScore.text = String(0)
+
+        self.playerScoreTotal = 0
+        self.enemyScoreTotal = 0
+
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
         updateScores()
         //users.insert(name <- "\(player)",  numberOfWins <- )
         let alertController = UIAlertController(title: "End of WarGame", message:
@@ -128,6 +141,7 @@ class ViewController: UIViewController {
 
         self.Scores.text = payer_score
     }
+<<<<<<< HEAD
 
     @IBAction func resetScores(sender: AnyObject) {
         let players = db["players"]
@@ -149,5 +163,7 @@ class ViewController: UIViewController {
 
     }
 
+=======
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
 }
 

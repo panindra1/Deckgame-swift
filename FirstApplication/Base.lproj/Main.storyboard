@@ -197,6 +197,7 @@
                                     <rect key="frame" x="30" y="157" width="127" height="21"/>
                                 </variation>
                             </label>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ML-ii-ATA">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Reset Scores">
@@ -209,6 +210,8 @@
                                     <action selector="resetScores:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="grL-MZ-MA6"/>
                                 </connections>
                             </button>
+=======
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -239,7 +242,10 @@
                                 <exclude reference="x3q-Lp-3Jj"/>
                                 <exclude reference="Llt-gi-D5v"/>
                                 <exclude reference="V4W-8V-Vs1"/>
+<<<<<<< HEAD
                                 <exclude reference="4ML-ii-ATA"/>
+=======
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="HOF-J4-Jpq"/>
@@ -270,7 +276,10 @@
                                 <include reference="x3q-Lp-3Jj"/>
                                 <include reference="Llt-gi-D5v"/>
                                 <include reference="V4W-8V-Vs1"/>
+<<<<<<< HEAD
                                 <include reference="4ML-ii-ATA"/>
+=======
+>>>>>>> 911368c3341688209230b0ee90302b8acec95dbb
                             </mask>
                             <mask key="constraints">
                                 <include reference="HOF-J4-Jpq"/>
